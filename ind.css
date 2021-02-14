@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+header{
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header #logo {
+    padding: 10px 25px 10px 0px;
+    height: auto;
+    width: auto;
+
+}
+
+header #icons{
+    color: #7f7f7f;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header #socialmedia{
+    margin: 10px 40px 10px 0;
+}
+
+header #menu{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+header #menu img{
+    margin-left: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+
+
+.emarketing {
+    height: fit-content;
+    background-color: #CCCCCC;
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+.emarketing #head1{
+    font-size: 40px;
+    margin: 25px auto;
+}
+
+
+#btn1{
+    padding: 15px 35px;
+    background-color: #c7b199;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    
+}
+ #btn2{
+    padding: 13px 35px;
+    background-color: white;
+    border: 0px;
+    border-radius: 3px;
+    color: black;
+    margin-top: 25px;
+}
+
+#btn3{
+    padding: 13px 15px;
+    background-color:#c7b199 ;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 25px;
+}
+
+.digital{
+    height: 630px;
+    background-image: url(./images/event-bg.jpg);
+    
+}
+
+.digital #content{
+    padding: 250px 50px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.digital #content #tag{
+    color: white;
+}
+
+
+.testimony{
+    height: 700px;
+    background-image: url(./images/experience-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 100px;
+
+}
+
+.testimony #flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 75px;
+    font-size: 20px;
+}
+
+.testimony #presidant{
+    width: 20%;
+    opacity: 0.5;
+    font-weight: 00;
+}
+.testimony #CEO{
+    width: 20%;
+    font-weight: 00;
+}
+.testimony #EVP{
+    width: 20%;
+    opacity: 0.5;
+    font-weight: 00;
+}
+
+.testimony #slide{
+    padding-top: 100px;
+}
+
+
+.events{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.events #flx{
+    display: flex;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.events #event1{    
+    padding-left: 15px;
+}
+.events #event2{    
+    padding-left: 15px;
+}
+.events #event3{    
+    padding-left: 15px;
+}
+.events #event4{    
+    padding-left: 15px;
+}
+
+.events #info{
+    font-size: small;
+}
+
+.events #info img{
+    margin-top: 14px;
+}
+
+.blog {
+    background-color: #f8f9fb;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    width: 85%;
+    margin: 0 auto 100px;
+}
+
+.blog #mini{
+    padding:10px 0;
+    font-size: small;
+    color: #b2a191;
+}
+
+.blog #blogs{
+    display: flex;
+    justify-content:space-between;
+}
+
+.blog #blgcntent{
+    display: flex;
+    justify-content: center;
+}
+
+.blog #one{
+    padding: 50px 0 120px 0;
+    background-color: #ebe2d9;
+    width: 30%;
+    height: auto;
+}
+
+.blog #blgcntent{
+    color: #b69874;
+}
+
+.blog #one p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #b69874;
+}
+.blog #blk{
+    color: black;
+}
+
+.blog #two{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 5px;
+    color: #999999;
+    font-size: 15px;
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+
+footer #head{
+    padding: 80px 0 40px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+
+footer #inpbx{
+    width: 40%;
+    background-color: white;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+footer #mail{
+    border: 0;
+    height: 50px;
+    width: 80%;
+}
+
+#btn4{
+    height: 50px;
+    width: 140px;
+    border: 0;
+    color: white;
+    position: absolute;
+    background-color: #b59877
+}
+
+footer #foot{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.company{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto 100px;
+}
+
+.company #mini{
+        padding:10px 0;
+        font-size: medium;
+        color: #e9a3a6;
+}
+
+.company #service{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    width: fit-content;
+    margin: 25px auto;
+    font-size: 15px;
+    color: #e9a3a6;
+}
+
+.company #left{
+    float: right;
+    width: 90%
+}
+
+.company #center1{
+    padding: 0 25px;
+    /* width: 100%; */
+}
+.company #center2{
+    padding: 0 25px;
+    width: 30%;
+}
+
+.company #right{
+    float: left;
+    width: 100%;
+}
+
+:focus{
+    outline: 0;
+}
